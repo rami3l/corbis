@@ -1,0 +1,18 @@
+{
+  "name": "corbis",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node ./test.mjs",
+    "build": "esbuild index.mjs --minify --outfile=./dist/index.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.20.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.15.0"
+  }
+}
